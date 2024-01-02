@@ -109,7 +109,7 @@ page 50107 General_Action
     trigger OnAfterGetRecord()
 
     var
-        // myInt: Integer;
+         myInt: Integer;
     begin
        if Rec.Results<>0 then
        MakeItvisible:=false 
